@@ -1,0 +1,6 @@
+{
+  "name": "Liah - Toma el Control",
+  "description": "Ecosistema de hospitalidad, viaje y adquisición patrimonial fractional. Sistema completo con los 10 flujos críticos Mobile First y Escritorio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F5FDFF;
+    color: #252425;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-georama {
+    font-family: 'Georama', sans-serif;
+  }
+}
+
+/* Custom utility styles for Liah identity */
+.bg-liah-blue {
+  background-color: #66C2F1;
+}
+
+.text-liah-blue {
+  color: #66C2F1;
+}
+
+.border-liah-blue {
+  border-color: #66C2F1;
+}
+
+.bg-liah-black {
+  background-color: #252425;
+}
+
+.text-liah-black {
+  color: #252425;
+}
+
+.bg-liah-white {
+  background-color: #F5FDFF;
+}
+
+/* Soft sky gradient background */
+.bg-liah-sky {
+  background: linear-gradient(180deg, #E0F2FE 0%, #F5FDFF 100%);
+}
+
+.bg-liah-sky-card {
+  background: linear-gradient(135deg, rgba(224, 242, 254, 0.6) 0%, rgba(245, 253, 255, 0.9) 100%);
+}
+
+/* Hide scrollbar for clean horizontal scrolling lists */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
